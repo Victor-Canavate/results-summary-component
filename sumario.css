@@ -1,0 +1,124 @@
+.sumario {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sumario-titulo {
+    font-weight: bolder;
+    color: var(--cinza-escuro-azulado);
+}
+
+.sumario-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.sumario-reacao {
+    background-color: var(--vermelho-claro);
+}
+
+.sumario-memoria {
+    background-color: var(--amarelo-alaranjado);
+}
+
+.sumario-verbal {
+    background-color: var(--verde);
+}
+
+.sumario-visual {
+    background-color: var(--azul-cobalto);
+}
+
+.sumario-nome {
+    display: flex;
+    align-items: center;
+}
+
+.sumario-reacao-nome {
+    color: hsl(0, 100%, 67%) ;
+}
+
+.sumario-memoria-nome {
+    color: hsl(39, 100%, 56%);
+}
+
+.sumario-verbal-nome {
+    color: hsl(166, 100%, 37%) ;
+}
+
+.sumario-visual-nome {
+    color: hsl(234, 85%, 45%);
+}
+
+.sumario-reacao-nome:before {
+    display: inline-flex;
+    content: '';
+    background-image: url("./assets/images/icon-reaction.svg");
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sumario-memoria-nome::before {
+    display: inline-flex;
+    content: '';
+    background-image: url("./assets/images/icon-memory.svg");
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sumario-verbal-nome::before {
+    display: inline-flex;
+    content: '';
+    background-image: url("./assets/images/icon-verbal.svg");
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sumario-visual-nome::before {
+    display: inline-flex;
+    content: '';
+    background-image: url("./assets/images/icon-visual.svg");
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sumario-botao {
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--cinza-escuro-azulado);
+    color: var(--azul-palido);
+    padding: 1.1rem;
+    font-weight: bolder;
+}
+
+.sumario-leve {
+    font-weight: bolder;
+    color: var(--azul-lavanda);
+}
+
+.sumario-quantidade-valor {
+    color: var(--cinza-escuro-azulado);
+    font-weight: bolder;
+}
