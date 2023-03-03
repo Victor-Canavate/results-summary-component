@@ -50,13 +50,22 @@
     padding: 0.5rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .resultado {
         padding: 0;
         border-radius: 8%;
         width: 27%;
         height: auto;
         justify-content: center;
-        position: relative;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .resultado {
+        padding: 0;
+        border-radius: 8%;
+        width: 35%;
+        height: auto;
+        justify-content: center;
     }
 }

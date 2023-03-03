@@ -123,12 +123,35 @@
     font-weight: bolder;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .sumario {
         background-color: var(--branco);
         box-shadow: 8px 8px 20px var(--azul-palido);
         padding: 2rem;
         width: 25%;
+        margin: 0;
+        border-top-right-radius: 8%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+    }
+
+    .sumario-container {
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .sumario-botao:hover {
+        background: linear-gradient(0deg, rgba(46,43,233,1) 10%, rgba(120,87,255,1) 79%);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sumario {
+        background-color: var(--branco);
+        box-shadow: 8px 8px 20px var(--azul-palido);
+        padding: 2rem;
+        width: 30%;
         margin: 0;
         border-top-right-radius: 8%;
         border-bottom-right-radius: 8%;
